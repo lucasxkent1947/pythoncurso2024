@@ -134,6 +134,3 @@ print(len(otra_tupla))
 print(otra_tupla.index(5))
 
 print(otra_tupla.count(1))
-
-
-otra_tupla.append(100)
