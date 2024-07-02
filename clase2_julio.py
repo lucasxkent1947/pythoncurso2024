@@ -65,5 +65,73 @@ print(1>2)
 #El operador MAYOR IGUAL QUE sirve para preguntarle a nuestro programa si el primer operando es mayor que el segundo operando O si ambos son iguales
 #Nos va a devolver TRUE si el primero es mayor o igual al segundo, y FALSE si el primero es menor que el segundo.
 #Este operador se escribe con un signo mayor que y un igual (>=)
-print( 7>=3)
-print(10>=10)
+print(7>=3)
+print(10>=10) 
+
+
+
+#Podemos hacer operaciones relacionales en strings inclusive.
+
+print("Hola" =="Hola")
+
+b = "Hola"
+
+print(b[1] == "o") # Acá le estoy pidiendo al programa que me diga si el indice 1 de la variable b es igual a "o"
+
+
+
+""" False == True -falsa
+10 >= 2*4 - verdadera
+33/3 == 11 -verdadera
+True > False - verdadera
+True*5 == 2.5*2 -verdadera  """
+
+print(True*5 == 2.5*2)
+
+
+
+#_______________ OPERADORES LOGICOS
+#NOT 
+#NOT es la negación, o tambien conocido como NO. Solo afecta a los tipos logicos TRUE Y FALSE y solo requiere un operando en una expresion.
+print(not True == False)
+
+
+#Conjunción y Disyunción
+#Conjunción viene de conjunto, agrupa uniendo
+#Disyunción viene de disyunto, agrupa separando.
+
+#AND  es conocido como el Y
+#Va a unir una o varias sentencias logicas.
+#Verdadero Y Verdadero
+
+print ( 2> 1 and 5 > 2) 
+print( 5> 25 and 20<1)
+
+
+#True AND True - True
+#True AND False - False
+#False AND False - False
+#False and True - False
+
+#OR es O en ingles.
+#Es Disyunción (separa)
+# Si le pregunto a python por dos afirmaciones y al menos una es TRUE, python me va a decir que la afirmación es TRUE
+
+print(2>1 or 5>2)
+print(5<20 or 20<1)
+
+# True o True - True
+# True o False - True 
+# False o True - True
+# False o False - False 
+
+
+
+
+#Ejercicio Mental Expresiones
+# not False - verdadero
+# not 3 == 5 - verdadero
+# 33 /3 == 11 and 5>2 - verdadero
+#True or False - verdadero
+# True*5 == 2.5*2 or 123>= 23 - verdadero
+# 12> 7 and True < False - falso
