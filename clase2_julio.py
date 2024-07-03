@@ -135,3 +135,45 @@ print(5<20 or 20<1)
 #True or False - verdadero
 # True*5 == 2.5*2 or 123>= 23 - verdadero
 # 12> 7 and True < False - falso
+
+#NORMAS DE PRECEDENCIA
+#1. TERMINOS ENTRE PARENTESIS
+#2. POTENCIACIÓN Y RAICES
+#3. MULTIPLIACIÓN Y DIVISIÓN
+#4. SUMA Y RESTA
+
+d = 15
+e = 12
+print(d**e / 3 **e / e * d >= 15 and not (d%e **2) != 0)
+
+numero = 15
+
+a = 0
+a +=1
+
+print(a)
+
+b = 50
+b -=5
+b -=5
+b -=5
+print(b)
+
+c = 5
+c *= 10
+c *= 10
+c *= 10
+print(c)
+
+
+#  Operador         Ejemplo     Equivalente
+#  =                 a = 2         a = 2
+#  +=                a += 2        a = a + 2
+#  -=                a -= 2        a = a - 2
+# *=                a *= 2        a = a * 2
+# /=                a /= 2        a = a / 2
+#  %=
+# **= 
+
+
+
