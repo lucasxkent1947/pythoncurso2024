@@ -104,3 +104,24 @@ print("Item en la posición 8:", tupla[8])
 # Printeamos el número de veces que se repite algún item en la tupla
 item = 4
 print(f"El item {item} se repite {tupla.count(item)} veces en la tupla")
+
+
+
+
+
+
+
+#_______________________________________________________________-
+#CLASE 16 de Julio, analizar el código y explicar que hace cada linea, luego reemplazarlo por otra condición
+#WHILE
+n = 10
+while n<10:
+    if (n%2)==0:
+        print(n,"Es un numero par")
+    else:
+        print(n,"es un numero impar")
+    n+=1
+    
+#  IF ELSE ELIF
+# Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen que está en la carpeta assets del repo
+
