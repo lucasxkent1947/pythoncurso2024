@@ -125,3 +125,21 @@ while n<10:
 #  IF ELSE ELIF
 # Construir un algoritmo con lo viste en clase bajo el mismo diagrama de flujo de la imagen que está en la carpeta assets del repo
 
+
+
+
+
+
+# SETS
+# Es una variable grupo:
+#Añadir a las siguientes personas: Jose, Maria, Gerardo, Fabian
+#Eliminar a las personas: Fernando, Federico, Francisco
+
+grupo = {"Fernando", "Federico", "Francisco", "Ricardo"}
+
+
+# DICCIONARIOS
+animalitos = {"elefante": ""}
+# Añadir al diccionario las claves perro, gato y tucan con sus valores "Tobi", "Michi" y "Diego"
+
+# Modificar la clave elefante por delfin
