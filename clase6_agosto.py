@@ -93,7 +93,12 @@ print(calculo_factorial(5)) """
 print(int(2.5))
 print(int("307"))
 
+#Acá si le verificamos el tipo nos muestra que el entero se transformo a string
+print(type(str(50)))
+
 print(float(25))
 print(float("2.5"))
+
+
 
 print(round(2.6))
